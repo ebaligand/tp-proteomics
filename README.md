@@ -440,15 +440,12 @@ Valider le mapping produit par STRING en clickant sur 'Continue'.
 Combien d'interactions contient ce réseau ?
 
 ```
-
-
-
+Ce réseau contient 38 intéractions.
 
 ```
 
 
-Faire varier les paramètres de visualisation du réseau dans 'Settings' pour afficher le réseau fonctionnel
-ou physique avec différents indices de confiance.
+Faire varier les paramètres de visualisation du réseau dans 'Settings' pour afficher le réseau fonctionnel ou physique avec différents indices de confiance.
 
 
 Combien d'interactions sont supportées par chaque source ('Textmining', 'Experiments', 'Databases','Co-expression',
@@ -456,10 +453,13 @@ Combien d'interactions sont supportées par chaque source ('Textmining', 'Experi
 
 Hint: l'onglet Analysis, donne accès aux nombre des interactions du réseau.
 ```
-
-
-
-
+Textmining : 29
+Experiments : 8
+Databases : 4
+Co-expression : 9
+Neighborhood : 1
+Gene Fusion : 0
+Co-occurence : 7
 ```
 
 #### Analyse du réseau des protéines sur-exprimées dans le contexte du réseau global.
@@ -468,20 +468,19 @@ Consulter la rubrique 'Network Stats' dans l'onglet Analysis.
 
 Que peut-on en conclure sur les interactions de ce petit ensemble de protéines ?
 ```
-
-
-
+nombre de nœuds :	23
+nombre de bords :	38
+degré moyen de nœud :	3.3
+coefficient de regroupement local moyen :	0.631
+nombre attendu de bords :	15
+Valeur p d'enrichissement PPI :	7.43e-07
 
 ```
 
-Afin de replacer ces protéines dans le contexte du réseau d'interaction global de E. coli, 
-ajouter les interacteurs de la première et de la deuxième couche.
+Afin de replacer ces protéines dans le contexte du réseau d'interaction global de E. coli, ajouter les interacteurs de la première et de la deuxième couche.
 
 Que pouvez-vous en déduire sur les mécanismes activés par la présente de tétracycline ?
 ```
-
-
-
 
 ```
 #### Analyse de sur-représentation des termes GO
@@ -490,10 +489,12 @@ Consulter l'analyse de sur-représention des termes GO présents dans l'onglet '
 Est-ce cohérent avec votre analyse précédente ?
 
 ```
-
-
-
-
+nombre de nœuds :	33
+nombre de bords :	128
+degré moyen de nœud :	7,76
+coefficient de regroupement local moyen :	0.692
+nombre attendu de bords :	35
+Valeur p d'enrichissement PPI :	< 1,0e-16
 ```
 
 
